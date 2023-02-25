@@ -1,0 +1,63 @@
+<!DOCTYPE html> <!-- padrão HTML 5 -->
+<html lang="pt-br"> <!--Definição do idioma da página -->
+	<head>
+	<!-- Informações para o navegador -->
+		<title>Tabelas</title>
+		<meta charset="UTF-8">
+	</head>
+	<body>
+	<!-- Conteúdo que será renderizado na tela -->
+		<h1>Tabelas</h1>
+
+		<table border="1" width="100%"> <!--"table" gera tabela./ "border" gera bordas / "width" ajustar largura da pagina--> 
+			<thead>
+				<tr>
+					<th>Coluna 1</th>
+					<th>Coluna 2</th>
+					<th>Coluna 3</th>
+				</tr>
+				<tr align="center">
+					<td colspan="3"><!--Defini quantas colunas irá utilizar-->Descrição da Tabela</td>
+				</tr>
+				
+			</thead>
+				<tr> <!--gera linha.-->
+					<td>1A</td> <!--gera coluna-->
+					<td>1B</td>
+					<td>1C</td>
+				</tr>
+				<tr>
+					<td align="center">2A</td>
+					<td>2B</td>
+					<td align="center">2C</td>
+				</tr>
+				<tr>
+					<td>3A</td>
+					<td colspan="2">3BC</td>
+				</tr>
+				<tfoot> 
+					<tr align="center">
+						<td colspan="3">Rodapé da  tabela</td>
+					</tr>
+
+				</tfoot>
+		</table>
+		
+		<h2>Tabela como layout</h2>
+		<table width="600">
+			<tr height="90">
+				<td colspan="4" bgcolor="#BBCCEE" align="center">Cabeçalho</td>
+			</tr>
+			<tr height="300">
+				<td width="20" bgcolor="#0000FF"></td>
+				<td bgcolor="#DDDDDD">Coluna 1</td>
+				<td bgcolor="#EEEEEE">Coluna 2</td>
+				<td width="20" bgcolor="#0000FF" ></td>
+			</tr>
+			<tr>
+				<td bgcolor="#FF0000" colspan="4" align="center">Rodapé</td>
+			</tr>
+		</table>
+
+	</body>
+</html>
